@@ -8,8 +8,8 @@
 
 const prompt = require('prompt-sync')();
 
-let precioOriginal = parseFloat(prompt('Ingrese el precio original'));
-let descuento = parseFloat(prompt('Ingrese el porcentaje de descuento'));
+let precioOriginal = parseFloat(prompt ('Ingrese el precio original'));
+let descuento = parseFloat(prompt ('Ingrese el porcentaje de descuento'));
 let montoDescuento = precioOriginal * (descuento / 100);
 let precioFinal = precioOriginal - montoDescuento;
 console.log(`El precio final es = ${precioFinal}`);
