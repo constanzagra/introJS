@@ -7,3 +7,5 @@
 // número secreto. Usa un for para resolver este ejercicio.
 
 const prompt = require('prompt-sync')();
+let numeroRandom = Math.floor(Math.random() * 11);
+console.log(numeroRandom);

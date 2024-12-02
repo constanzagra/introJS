@@ -7,5 +7,5 @@ const prompt = require('prompt-sync')();
 let numero = parseFloat(prompt('Ingrese un número'));
 for(i = 1; i <= 10; i++){
     let multiplicacion = numero * i;
-    console.log(multiplicacion)
+    console.log(i)
 };
